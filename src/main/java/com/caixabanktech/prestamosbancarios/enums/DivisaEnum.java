@@ -1,19 +1,16 @@
 package com.caixabanktech.prestamosbancarios.enums;
 
+import com.fasterxml.jackson.annotation.JsonValue;
+
 public enum DivisaEnum {
-    USD("$"),
-    EUR("€"),
-    MXN("MX$"),
-    GBP("£");
+    USD,
+    EUR,
+    MXN,
+    GBP;
 
-    private final String simbolo;
-
-    DivisaEnum(String simbolo) {
-        this.simbolo = simbolo;
-    }
-
-    public String getSimbolo() {
-        return simbolo;
+    @JsonValue
+    public String nameValue() {
+        return this.name();
     }
 }
 

@@ -1,18 +1,11 @@
 package com.caixabanktech.prestamosbancarios.enums;
 
+import com.fasterxml.jackson.annotation.JsonValue;
+
 public enum EstadoSolicitudEnum {
-    PENDIENTE("Pendiente"),
-    APROBADA("Aprobada"),
-    RECHAZADA("Rechazada"),
-    CANCELADA("Cancelada");
+    PENDIENTE,
+    APROBADA,
+    RECHAZADA,
+    CANCELADA;
 
-    private final String value;
-
-    EstadoSolicitudEnum(String value) {
-        this.value = value;
-    }
-
-    public String getValue() {
-        return value;
-    }
 }

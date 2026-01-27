@@ -1,24 +1,26 @@
-package com.caixabanktech.prestamosbancarios.model;
+package com.caixabanktech.prestamosbancarios.entity;
 
 import com.caixabanktech.prestamosbancarios.enums.DivisaEnum;
 import com.caixabanktech.prestamosbancarios.enums.EstadoSolicitudEnum;
 import lombok.Data;
 
 import java.math.BigDecimal;
-import java.util.Date;
+import java.time.LocalDateTime;
 
 @Data
 public class SolicitudPrestamo {
 
+    private Long id;
+
     private String nombreSolicitante;
 
-    private BigDecimal importeSolitado;
+    private BigDecimal importeSolicitado;
 
     private DivisaEnum divisa;
 
     private String documentoIdentidad;
 
-    private Date fechaCreacion;
+    private LocalDateTime fechaCreacion;
 
     private EstadoSolicitudEnum estadoSolicitud;
 
