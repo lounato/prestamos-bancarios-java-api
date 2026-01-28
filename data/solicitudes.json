@@ -1,1 +1,20 @@
-[{"divisa":"EUR","documentoIdentidad":"12345678A","estadoSolicitud":"PENDIENTE","fechaCreacion":"2026-01-27T18:46:00","id":1,"importeSolicitado":10000,"nombreSolicitante":"Lourdes Navarro Tocón"},{"divisa":"USD","documentoIdentidad":"12345678","estadoSolicitud":"PENDIENTE","fechaCreacion":"2026-01-27T21:30:38.4399563","id":2,"importeSolicitado":1000,"nombreSolicitante":"Juan Perez"},{"divisa":"EUR","documentoIdentidad":"87654321","estadoSolicitud":"APROBADA","fechaCreacion":"2026-01-27T21:30:38.4879192","id":3,"importeSolicitado":500,"nombreSolicitante":"Ana"}]
+[
+  {
+    "divisa": "EUR",
+    "documentoIdentidad": "12345678A",
+    "estadoSolicitud": "PENDIENTE",
+    "fechaCreacion": "2026-01-27T18:46:00",
+    "id": 1,
+    "importeSolicitado": 10000,
+    "nombreSolicitante": "Lourdes Navarro Tocón"
+  },
+  {
+    "divisa": "USD",
+    "documentoIdentidad": "12345678",
+    "estadoSolicitud": "PENDIENTE",
+    "fechaCreacion": "2026-01-27T21:30:38.4399563",
+    "id": 2,
+    "importeSolicitado": 1000,
+    "nombreSolicitante": "Juan Pérez"
+  }
+]
